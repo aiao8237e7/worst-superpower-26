@@ -8,13 +8,13 @@ Entry for the [Worst Superpower](https://make.fun/competitions/u-suroto-worst-su
 
 ## The entry
 
-> I can make my phone battery last forever — but only while it's plugged in.
+> I can turn back time — but only by one second, and it takes me two seconds to do it.
 
-(74 characters — well inside the 140-character cap.)
+(84 characters — well inside the 140-character cap.)
 
 ## How it works
 
-`main.ts` deterministically writes that single line to `/output/entry.txt`. No input, no network, no randomness — the same line every run.
+`main.ts` deterministically writes that single line to `/output/entry.txt`. No input, no network, no randomness — the same line every run. Before writing, it asserts the entry is a single non-blank line of 1–140 characters and fails loudly if not.
 
 ## Run it
 
